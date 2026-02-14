@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins';
+    color: #333;
+}
+a {
+    font-family: 'Poppins';
+    color: #007bff;
+    text-decoration: none;
+}
+
+.header{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+.hero{
+    background-color: #e6e6e6;
+    padding: 50px;
+    text-align: center;
+}
+.footer{
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+/* Projects Section */
+.projects-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h4 {
+    margin-top: 0;
+    color: #333;
+}
+
+.project-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.project-card a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.project-card a:hover {
+    color: #0056b3;
+}
